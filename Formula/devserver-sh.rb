@@ -9,6 +9,7 @@ class DevserverSh < Formula
     revision 1
   
     depends_on "node@18"
+    depends_on "nestjs-cli@95" => :build
   
     def install
         ENV["PATH"] = "#{buildpath}/node_modules/.bin:" + ENV["PATH"]
