@@ -1,15 +1,11 @@
 class NestjsCliAt95 < Formula
     require "language/node"
-    class BabelCli < Formula
-    desc "Babel command line"
-    homepage "https://babeljs.io/"
+    desc "Nestjs command line"
+    homepage "https://docs.nestjs.com/cli/overview"
     url "https://registry.npmjs.org/@nestjs/cli/-/cli-9.5.0.tgz"
     sha256 "a08e947a0d4b15c247bd5c6534c0d486f35abe1e84efa4e110c59c5efc6bb7de"
     license "MIT"
-
-    livecheck do
-        url :stable
-    end
+    revision 1
 
     depends_on "node@18"
 
