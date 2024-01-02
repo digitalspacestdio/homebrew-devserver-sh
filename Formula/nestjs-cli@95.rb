@@ -5,7 +5,9 @@ class NestjsCliAT95 < Formula
     url "https://registry.npmjs.org/@nestjs/cli/-/cli-9.5.0.tgz"
     sha256 "a08e947a0d4b15c247bd5c6534c0d486f35abe1e84efa4e110c59c5efc6bb7de"
     license "MIT"
-    revision 1
+    revision 2
+
+    keg_only :versioned_formula
 
     depends_on "node@18"
 
