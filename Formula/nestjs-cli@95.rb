@@ -17,5 +17,4 @@ class NestjsCliAt95 < Formula
     test do
         raise "Test not implemented."
     end
-    end
   end
