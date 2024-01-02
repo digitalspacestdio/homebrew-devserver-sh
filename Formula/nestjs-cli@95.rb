@@ -1,4 +1,4 @@
-class NestjsCliAt95 < Formula
+class NestjsCliAT95 < Formula
     require "language/node"
     desc "Nestjs command line"
     homepage "https://docs.nestjs.com/cli/overview"
