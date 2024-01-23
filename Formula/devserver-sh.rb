@@ -3,8 +3,8 @@ class DevserverSh < Formula
   
     desc "Package acting as bridge between Node projects and their package managers"
     homepage "https://github.com/digitalspacestdio/cli.devserver.sh"
-    url "https://github.com/digitalspacestdio/cli.devserver.sh/releases/download/0.0.3/0.0.3.zip"
-    sha256 "d4394e66c42cda1d5fbe11fd92243816fbc5067ac601f67abe6b4a4de4bfeba9"
+    url "https://github.com/digitalspacestdio/cli.devserver.sh/releases/download/0.0.4/0.0.4.zip"
+    sha256 "6042931edf1f36134ecdca5542fe5a68c815e7b96532f3bd57d513d17f244065"
     license "MIT"
     revision 1
   
