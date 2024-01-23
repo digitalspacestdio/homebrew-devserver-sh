@@ -4,9 +4,9 @@ class DevserverSh < Formula
     desc "Package acting as bridge between Node projects and their package managers"
     homepage "https://github.com/digitalspacestdio/cli.devserver.sh"
     url "https://github.com/digitalspacestdio/cli.devserver.sh/releases/download/0.0.4/0.0.4.zip"
-    sha256 "6042931edf1f36134ecdca5542fe5a68c815e7b96532f3bd57d513d17f244065"
+    sha256 "3d7affa8dad9d5371f793728dcf599a0d77a93168dbd80a0f05ec591a70a9d15"
     license "MIT"
-    revision 1
+    revision 2
   
     depends_on "node@18"
     depends_on "nestjs-cli@95" => :build
